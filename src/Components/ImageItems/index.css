@@ -1,0 +1,18 @@
+.image-card-container {
+  margin: 0;
+}
+
+.button-image {
+  background-color: transparent;
+  border: none;
+}
+
+.thumbnail-image {
+  height: 70px;
+}
+@media screen and (min-width: 768px) {
+  .thumbnail-image {
+    height: 120px;
+    padding: 5px;
+  }
+}
